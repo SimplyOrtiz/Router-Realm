@@ -18,7 +18,7 @@
     left: 0; /* ao passar o mouse em cima move o item a direita */
 }
   
-  /* The about link: 20px from the top with a green background */
+  /* tag <A> que leva para integrantes.html: 20px para cima com fundo verde */
 #integrantes {
     top: 20px;
     background-color: #04AA6D;
