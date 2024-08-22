@@ -1,29 +1,3 @@
-/*
-    Código da barra de navegação lateral
-    Aquela barrinha que leva para a página de integrantes
-*/
-.sidenav a {
-    position: absolute; /* Posição relativa a janela do navegador */
-    left: -80px; /* Move para fora da tela */
-    transition: 0.3s; /* Transição do movimento */
-    padding: 15px;
-    width: 100px;
-    text-decoration: none; /* Remove a 'underline' */
-    font-size: 20px;
-    color: white; /* Define a cor do texto */
-    border-radius: 0 5px 5px 0; /* arredonda a borda superior direita e a borda inferior direita */
-}
-  
-.sidenav a:hover {
-    left: 0; /* ao passar o mouse em cima move o item a direita */
-}
-  
-  /* tag <A> que leva para integrantes.html: 20px para cima com fundo verde */
-.sidenav-members {
-    top: 20px;
-    background-color: #04AA6D;
-}
-
 /* Contéudo principal do site */
 .main-content, .preview-text{
     padding: 20px;
