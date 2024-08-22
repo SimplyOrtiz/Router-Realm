@@ -19,7 +19,7 @@
 }
   
   /* tag <A> que leva para integrantes.html: 20px para cima com fundo verde */
-.members {
+.sidenav-members {
     top: 20px;
     background-color: #04AA6D;
 }
