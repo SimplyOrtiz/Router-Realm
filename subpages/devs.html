@@ -28,15 +28,9 @@
         </section>
     </div>
     <div class="footer">
-        <button onclick="sendToPage('../index.html')" class="buttondev">
+        <button onclick="window.history.go(-1)" class="buttondev">
             <p class="pt-sans-bold">Voltar</p>
         </button>
     </div>
-    <script>
-        function sendToPage(pagepath){
-            url = pagepath
-            document.location.href = url
-        }
-    </script>
 </body>
 </html>
