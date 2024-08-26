@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Apenas abra esta página e veja.</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Quidem totam ullam architecto quae pariatur iure, perspiciatis omnis, repellat voluptas, quia optio cumque facilis recusandae sequi magnam! Architecto alias dicta dolor quaerat dignissimos repellat asperiores ducimus natus nam quod vitae optio quisquam culpa ipsa sapiente inventore reprehenderit eius qui fugiat, error cupiditate quis ex? Veritatis, sit veniam. Facere, eaque totam. Dolorem, saepe modi exercitationem corrupti autem quae pariatur cupiditate iste fuga delectus. Veritatis sapiente commodi cumque. Voluptatem, officiis assumenda? Vero odit quaerat aspernatur sit reprehenderit atque eveniet obcaecati, nobis iure ex!</p>
+    <script>
+        function reload(page){window.location.replace(page)}
+        setTimeout(reload(),2000)
+        var message = confirm("Você sabe o que é um rickroll?")
+        if (message){
+            alert("Beleza!");
+            reload("https://www.youtube.com/watch?v=xvFZjo5PgG0");
+        }else{
+            window.alert("Deixa que a wikipedia te explica ");
+            reload("https://pt.wikipedia.org/wiki/Rickrolling");
+        }
+    </script>
+</body>
+</html>

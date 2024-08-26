@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Router Realm - Devs</title>
+
+    <link rel="stylesheet" href="../src/css/fonts.css">
+    <link rel="stylesheet" href="../src/css/style.css">
+
+    <link rel="shortcut icon" href="../src/res/images/LogoSite.png" type="image/x-icon">
+</head>
+<body>
+    <div class="top-bar">
+        <a href="../index.html">
+            <img src="../src/res/images/LogoSite.png" alt="Logo" style="width: 50px;margin-right: 10px;">
+        </a>
+        <p class="exo-2-regular">Router Realm</p>
+    </div>
+    <div class="main-content">
+        <section id="preview-text">
+            <h1 class="exo-2-regular">Time Criativo</h1>
+            <p class="pt-sans-regular">Carlos<br><br>Matheus<br><br>Samuel</p>
+            <hr>
+            <h1 class="exo-2-regular">Time de Desenvolvimento</h1>
+            <p class="pt-sans-regular">Bruno<br><br>Diego<br><br>Guilherme</p>
+        </section>
+    </div>
+    <div class="footer">
+        <button onclick="sendToPage('../index.html')" class="buttondev">
+            <p class="pt-sans-bold">Voltar</p>
+        </button>
+    </div>
+    <script>
+        function sendToPage(pagepath){
+            url = pagepath
+            document.location.href = url
+        }
+    </script>
+</body>
+</html>

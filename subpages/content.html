@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Router Realm</title>
+
+    <link rel="stylesheet" href="../src/css/fonts.css">
+    <link rel="stylesheet" href="../src/css/style.css">
+
+    <link rel="shortcut icon" href="../src/res/images/LogoSite.png" type="image/x-icon">
+</head>
+<body>
+    <div class="top-bar">
+        <a href="../index.html">
+            <img src="../src/res/images/LogoSite.png" alt="Logo" style="width: 50px;margin-right: 10px;">
+        </a>
+        <p class="exo-2-regular">Router Realm</p>
+    </div>
+    <div class="buttons">
+        <section id="button-cards" class="pt-sans-regular">
+            <button id="IP-Tab" onclick="IPTab()">
+                <div class="button-content">
+                    <img src="../src/res/images/IP.png" alt="">
+                    <p>IP</p>
+                </div>
+            </button>
+
+            <button id="Ping-Tab" onclick="PingTab()">
+                <div class="button-content">
+                    <img src="../src/res/images/Ping.png" alt="">
+                    <p>Ping</p>
+                </div>
+            </button>
+
+            <button id="Traceroute-Tab" onclick="TracerouteTab()">
+                <div class="button-content">
+                    <img src="../src/res/images/TraceRoute.png" alt="">
+                    <p>Traceroute</p>
+                </div>
+            </button>
+
+            <button id="DNS-Tab" onclick="DNSTab()">
+                <div class="button-content">
+                    <img src="../src/res/images/DNS.png" alt="">
+                    <p>DNS</p>
+                </div>
+            </button>
+
+            <button id="Hubs-Tab" onclick="HubsTab()">
+                <div class="button-content">
+                    <img src="../src/res/images/Hub.png" alt="">
+                    <p>Hubs</p>
+                </div>
+            </button>
+
+            <button id="Switches-Tab" onclick="SwitchesTab()">
+                <div class="button-content">
+                    <img src="../src/res/images/Switch.png" alt="">
+                    <p>Switches</p>
+                </div>
+            </button>
+
+        </section>
+    </div>
+    
+    <div class="main-text-content">
+        <h1 class="exo-2-regular" id="page-title">Top Texts</h1>
+        <p class="pt-sans-regular" id="page-text">Bottom Text</p>
+    </div>
+
+    <div class="footer">
+        <button onclick="sendToPage('devs.html')" class="buttondev">
+            <p class="pt-sans-bold">Devs</p>
+        </button>
+    </div>
+
+    <script>
+        function sendToPage(pagepath){
+            url = pagepath
+            document.location.href = url
+        }
+    </script>
+    <script src="../src/js/main.js"></script>
+</body>
+</html>
